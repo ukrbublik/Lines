@@ -1,0 +1,266 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\Lines.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Lines.ico"
+IDR_ICON_START_0        ICON                    "res\\Icons\\StartNewGame_0.ico"
+IDR_ICON_START_1        ICON                    "res\\Icons\\StartNewGame_1.ico"
+IDR_ICON_START_2        ICON                    "res\\Icons\\StartNewGame_2.ico"
+IDR_ICON_STOP_0         ICON                    "res\\Icons\\StopGame_0.ico"
+IDR_ICON_STOP_1         ICON                    "res\\Icons\\StopGame_1.ico"
+IDR_ICON_STOP_2         ICON                    "res\\Icons\\StopGame_2.ico"
+IDR_ICON_SAVE_0         ICON                    "res\\Icons\\SaveGameToFile_0.ico"
+IDR_ICON_SAVE_1         ICON                    "res\\Icons\\SaveGameToFile_1.ico"
+IDR_ICON_SAVE_2         ICON                    "res\\Icons\\SaveGameToFile_2.ico"
+IDR_ICON_LOAD_0         ICON                    "res\\Icons\\LoadGameFromFile_0.ico"
+IDR_ICON_LOAD_1         ICON                    "res\\Icons\\LoadGameFromFile_1.ico"
+IDR_ICON_LOAD_2         ICON                    "res\\Icons\\LoadGameFromFile_2.ico"
+IDR_ICON_SETTINGS_0     ICON                    "res\\Icons\\Settings_0.ico"
+IDR_ICON_SETTINGS_1     ICON                    "res\\Icons\\Settings_1.ico"
+IDR_ICON_SETTINGS_2     ICON                    "res\\Icons\\Settings_2.ico"
+IDR_ICON_SKINS_0        ICON                    "res\\Icons\\Skins_0.ico"
+IDR_ICON_SKINS_1        ICON                    "res\\Icons\\Skins_1.ico"
+IDR_ICON_SKINS_2        ICON                    "res\\Icons\\Skins_2.ico"
+IDR_ICON_BEST_0         ICON                    "res\\Icons\\TableOfBestResults_0.ico"
+IDR_ICON_BEST_1         ICON                    "res\\Icons\\TableOfBestResults_1.ico"
+IDR_ICON_BEST_2         ICON                    "res\\Icons\\TableOfBestResults_2.ico"
+IDR_ICON_HELP_0         ICON                    "res\\Icons\\Help_0.ico"
+IDR_ICON_HELP_1         ICON                    "res\\Icons\\Help_1.ico"
+IDR_ICON_HELP_2         ICON                    "res\\Icons\\Help_2.ico"
+IDR_ICON_ABOUT_0        ICON                    "res\\Icons\\About_0.ico"
+IDR_ICON_ABOUT_1        ICON                    "res\\Icons\\About_1.ico"
+IDR_ICON_ABOUT_2        ICON                    "res\\Icons\\About_2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RULESBOX DIALOGEX 0, 0, 256, 259
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Правила игры в LiNES"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "За удаленные с поля линии игроку начисляются очки: по 1 очку за каждый удалённый шарик, причём после 5-ого за каждый следующий шарик очки удваиваются.",IDC_STATIC2,7,201,240,27
+    LTEXT           "На него за каждый ход выпадают 3 шарика различных цветов.",IDC_STATIC,7,104,240,10
+    LTEXT           "Имеется поле - 9х9 клеток.",IDC_STATIC,7,89,240,11
+    LTEXT           "Игрок за один ход может переместить один шарик на любую свободную клетку, если до неё можно пройти, перемещаясь только по горизонтали и вертикали.",IDC_STATIC,7,118,240,27
+    LTEXT           "Если из 5-ти и более шариков одного цвета выстраивается линия по горизонтали, вертикали или диагонали, то эта линия удаляется с поля.",IDC_STATIC,7,148,240,27
+    LTEXT           "В таком случае игрок может сделать ещё один ход, при этом новые шарики на поле не выпадают.",IDC_STATIC,7,179,240,19
+    PUSHBUTTON      "OK",IDOK,93,232,69,20
+END
+
+IDD_LINES_DIALOG DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LiNES by BUBLiK"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_ENTER_NAME DIALOGEX 0, 0, 218, 70
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Введите имя"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    PUSHBUTTON      "OK",IDOK,161,34,50,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Отмена",IDCANCEL,161,49,50,14,NOT WS_TABSTOP
+    LTEXT           "Поздравляю!\nВы набрали xxx очков за yyy\nи попали в таблицу рекордов под #zzz!\n\nВведите своё имя:",IDC_STATIC_CONGRATULATIONS,7,7,147,42
+    EDITTEXT        IDC_EDIT_NAME,7,49,147,14,ES_AUTOHSCROLL | ES_WANTRETURN
+END
+
+IDD_DIALOG_ABOUT DIALOGEX 0, 0, 312, 263
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе LiNES"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,123,236,64,20
+    LTEXT           "Автор:    Облогин Денис (BUBLiK)\ne-mail:     Ukr_Bublik@ukr.net\nВерсия:  1.3 Final (Freeware)\nCopyright (c) 2008 BUBLiK",IDC_STATIC,99,166,113,34
+    LTEXT           "",IDC_STATIC_SKIN_COPYRIGHT,99,205,187,26
+END
+
+IDD_DIALOG_BEST DIALOGEX 0, 0, 367, 300
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Таблица лучших результатов"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,150,275,56,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,0,0
+ PRODUCTVERSION 1,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "BUBLiK Inc."
+            VALUE "FileDescription", "Lines, the game"
+            VALUE "FileVersion", "1.3"
+            VALUE "InternalName", "Lines.exe"
+            VALUE "LegalCopyright", "(c) BUBLiK Inc.  All rights reserved."
+            VALUE "OriginalFilename", "Lines.exe"
+            VALUE "ProductName", "LiNES by BUBLiK"
+            VALUE "ProductVersion", "1.3"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_RULESBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+
+    IDD_LINES_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_DIALOG_ENTER_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DIALOG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+
+    IDD_DIALOG_BEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\Lines.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
