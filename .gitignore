@@ -6,3 +6,7 @@ Lines.sdf
 Lines.v12.suo
 Lines.opensdf
 Backup/*
+Lines/Debug/*
+Lines/Release/*
+Debug/*
+Release/*
