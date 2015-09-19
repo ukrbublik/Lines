@@ -5,7 +5,7 @@
 Classic Lines game.
 
 <h3>Installation:</h3>
-Compile with Visual Studio 2013+.
+Compile with Visual Studio 2013+.<br>
 Put contents of 'data' folder within EXE file.
 
 <h3>Changelog:</h3>
