@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BestScoresDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CeXDib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterNameDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PPDrawManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PPHtmlDrawer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PPTooltip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BestScoresDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CeXDib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterNameDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractT.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FDI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPDrawManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPHtmlDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PPTooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleIni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Icons\About_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\About_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\About_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Help_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Help_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Help_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Lines.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\LoadGameFromFile_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\LoadGameFromFile_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\LoadGameFromFile_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\SaveGameToFile_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\SaveGameToFile_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\SaveGameToFile_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Settings_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Settings_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Settings_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Skins_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Skins_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\Skins_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\StartNewGame_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\StartNewGame_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\StartNewGame_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\StopGame_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\StopGame_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\StopGame_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\TableOfBestResults_0.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\TableOfBestResults_1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icons\TableOfBestResults_2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lines.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Lines.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
