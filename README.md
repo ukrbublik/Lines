@@ -4,9 +4,10 @@
 <h3>Description:</h3>
 Classic Lines game.
 
-<h3>Installation:</h3>
+<h3>Building:</h3>
 Compile with Visual Studio 2013+.<br>
-Put contents of 'data' folder within EXE file.
+Put contents of 'data' folder within EXE file.<br>
+See 'download' folder for ready-to-play executables :)
 
 <h3>Changelog:</h3>
 2008 - v1.0.1
